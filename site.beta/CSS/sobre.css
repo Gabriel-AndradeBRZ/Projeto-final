@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Rubik:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+    background-color: rgb(255, 196, 250)
+}
+/*--------------------------------------------------------------------------- CARROSEL e MENU -------------------------------------------------------------------------*/
+.topo{
+    background-color: rgb(220, 103, 243);
+    width: 100%;
+    right: 40px;
+}
+
+.logo{
+    margin-top: -90px;
+    margin-left: 30px;
+}
+
+.menu{
+    width: 1000px;
+    height: 90px;
+    margin-left: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul{   
+    width: 138px;
+    height: 85px;
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Andale Mono, monospace;
+    font-size: 18px;
+    padding: 17px 30px;
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(255, 255, 255)
+}
+
+/*--------------------------------------------------------------------------- PROPRITÁRIA -------------------------------------------------------------------------*/
+
+
+h1{
+    display: flex;
+    justify-content: center;
+
+    margin: 2rem 0 2rem 0;
+
+    font-family: heebo;
+    font-size: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    max-width: 1800px;
+    margin: 0 auto;
+    grid-gap: 50px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 35px 40px;
+
+    box-shadow: 6px 6px 10px rgba(0,0,0,0.171);
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: roboto;
+
+    font-size: 18px;
+}
