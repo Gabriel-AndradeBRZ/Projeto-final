@@ -21,7 +21,7 @@ body {
 .menu{
     width: 1000px;
     height: 90px;
-    margin-left: 400px;
+    margin-left: 365px;
     display: flex;
     justify-content: flex-end;
 }
